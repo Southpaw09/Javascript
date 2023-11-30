@@ -71,3 +71,10 @@ console.table([1+2+"2", typeof(1+2+"2")]);//32 - string
 // let x2 = 3n;
 // const y2 = ++x2;
 // x2 is 4n; y2 is 4n
+
+
+//Comparison
+
+console.log(null>0);//false
+console.log(null == 0);//false
+console.log(null >= 0);//true
