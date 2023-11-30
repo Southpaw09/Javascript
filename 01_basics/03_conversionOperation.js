@@ -37,3 +37,37 @@ NaN	                Number	                                            NaN — n
 document.all	    Object	                            The only falsy object in JavaScript is the built-in document.all.
 
 */
+
+/** OPERATIONS */
+
+//+-*%**
+let value = 3;
+let negValue = -value;
+
+console.log(negValue);
+
+console.log("1" + 2);//12
+console.log(1+ + 2);//3
+console.log("1"+ + 2);//12
+console.table(["1"+2+2, typeof("1"+2+2)]);//122 - string
+console.table([1+2+"2", typeof(1+2+"2")]);//32 - string
+
+/*Prefix Vs Postfix */
+
+//If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.
+// let x = 3;
+// const y = x++;
+// x is 4; y is 3
+
+// let x2 = 3n;
+// const y2 = x2++;
+// x2 is 4n; y2 is 3n
+
+//If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.
+// let x = 3;
+// const y = ++x;
+// x is 4; y is 4
+
+// let x2 = 3n;
+// const y2 = ++x2;
+// x2 is 4n; y2 is 4n
