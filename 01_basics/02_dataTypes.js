@@ -18,7 +18,10 @@ let isLoggedIn = false;
 //symbol => unique
 
 
+
 //object
 
 
 console.log(typeof(null));
+
+//typeof NaN => number
