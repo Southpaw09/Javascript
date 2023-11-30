@@ -51,3 +51,19 @@ console.log(typeof([1,2,3]));//object
 
 //Javascript is dynamically typed language i.e. we do not define
 // the type of the variable
+
+
+
+
+//*******Memories********/
+// 1. Stack(Primitive)
+let name = "Ayush";
+let secondName = name;
+console.log(name, secondName);
+secondName = "Piyush";
+console.log(name, secondName);
+//only copy is given from stack
+
+// 2.Heap(Non-Primitive)
+//same reference is given to same object and changes
+// made to new object is changes into original value
